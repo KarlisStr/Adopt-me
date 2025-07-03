@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import Pet from "./Pet";
+// import Pet from "./Pet";
 import SearchParams from "./SearchParams";
 
 const App = () => {
@@ -7,9 +7,9 @@ const App = () => {
     <div>
       <h1>Adopt Me!</h1>
       <SearchParams />
-      <Pet name="Luna" animal="dog" breed="Havanese" />
+      {/* <Pet name="Luna" animal="dog" breed="Havanese" />
       <Pet name="Pepper" animal="Cat" breed="mixd" />
-      <Pet name="Doink" animal="bird" breed="cockateil" />
+      <Pet name="Doink" animal="bird" breed="cockateil" /> */}
     </div>
   );
 };
